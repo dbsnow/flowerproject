@@ -25,6 +25,7 @@ var bouquetDetail = appData.bouquetDetail
 
 //2.使用expresss配置路由，指定接口请求
 var router = express.Router() //定义一个路由
+app.use('/api', router)
 
 const devWebpackConfig = merge(baseWebpackConfig, {
   module: {
