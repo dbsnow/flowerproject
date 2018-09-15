@@ -1,0 +1,48 @@
+body {
+  font-family: PingFang SC-Regular, Roboto, Source Han Sans CN, sans-serif; }
+
+html {
+  font-size: 62.5%; }
+
+div, p, ul, li, h1, h2, h3, h4, h5, h6, ol {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+  a:hover, a:focus, a:visited, a:link {
+    color: #333; }
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.pull_left {
+  float: left; }
+
+.pull_right {
+  float: right; }
+
+.text_primary {
+  color: #0a87f8; }
+
+.text_left {
+  text-align: left; }
+
+.text_center {
+  text-align: center; }
+
+.text_right {
+  text-align: right; }
+
+.text_limit {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden; }
+
+.detail-desc p {
+  margin-bottom: 1rem; }

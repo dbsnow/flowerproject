@@ -1,0 +1,79 @@
+body {
+  font-family: PingFang SC-Regular, Roboto, Source Han Sans CN, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+div, p, ul, li, h1, h2, h3, h4, h5, h6, ol {
+  margin: 0;
+  padding: 0;
+}
+
+$base-color: #333;
+$gray-color: #666;
+$light-color: #999;
+$base-blue-color: #0a87f8;
+a {
+  text-decoration: none;
+  &:hover, &:focus, &:visited, &:link {
+    color: $base-color;
+  }
+}
+
+.clearfix {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.pull {
+  &_left {
+    float: left;
+  }
+
+  &_right {
+    float: right;
+  }
+}
+
+.text {
+  &_primary {
+    color: $base-blue-color;
+  }
+  &_left {
+    text-align: left;
+  }
+
+  &_center {
+    text-align: center;
+  }
+
+  &_right {
+    text-align: right;
+  }
+  &_limit {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+.detail {
+  &-desc {
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.share {
+
+}
