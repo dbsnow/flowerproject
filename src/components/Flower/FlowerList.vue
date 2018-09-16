@@ -56,7 +56,7 @@ export default {
       flex-grow: 1;
     }
     &-desc{
-      height: 2rem;
+      height: 20px;
     }
     &-info{
       font-size: 15px;
